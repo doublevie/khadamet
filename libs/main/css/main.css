@@ -1,0 +1,32 @@
+.navbar-dark .navbar-toggler {
+color: #000 ;
+border-color: #FFEA00 ;
+}
+.navbar-dark .navbar-brand {
+  color:#FFEA00;
+  font-family: 'Amatic SC', cursive;
+font-size: 30px;
+line-height: 30px;padding:0;
+font-weight: bold;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link {
+  color:#FFEA00;
+}
+
+.navbar-dark {background: #000}
+
+
+.navbar-dark.nav-top {background: transparent}
+.navbar-dark.nav-top .navbar-toggler  {color:#000;border-color: #000}
+.navbar-dark.nav-top .navbar-brand{color:#000000;line-height: 40px;font-size: 36px;font-weight: normal;}
+.navbar-dark.nav-top .navbar-nav .active>.nav-link, .navbar-dark.nav-top .navbar-nav .nav-link {
+  color:#000000;
+}
+
+.navbar-dark.nav-top .navbar-brand , .navbar-dark .navbar-brand {
+  transition: font-size 0.7s ease;
+}
+
+
+
+section.main {height:500px;min-height: 70vh;background: #FFD600}
