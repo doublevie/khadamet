@@ -50,6 +50,26 @@
 
 </section>
 
+<section class="gr">
+<div class="container">
+<div class="row mainrow">
+<div class=" col-md-4">
+<div class="gridcol">
+
+</div>
+
+</div>
+<div class=" col-md-4">
+<div class="gridcol red">
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
 
 
 

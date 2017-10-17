@@ -29,4 +29,7 @@ font-weight: bold;
 
 
 
-section.main {height:500px;min-height: 70vh;background: #FFD600}
+section.main {min-height: 80vh;background: #FFD600;margin-bottom: -120px;}
+.gridcol {background: white;min-height: 200px;z-index: 9999999}
+.gridcol.red {background: red}
+.mainrow * {padding:0}
