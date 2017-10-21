@@ -4,13 +4,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css" >
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
 
-<link rel="stylesheet" href="libs/main/css/main.css">
+<!-- <link rel="stylesheet" href="libs/main/css/main.css"> -->
 <link type="text/css" rel="stylesheet" href="libs/froala/css/froala_blocks.css">
 <link type="text/css" rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
+<style media="screen">
 
+</style>
     <!-- Bootstrap CSS -->
   </head>
   <body>
@@ -20,66 +22,17 @@
 
 
 
+<?php include 'inc/navbar.php'; ?>
 
-          <nav class="navbar navbar-expand-lg  nav-top fixed-top ">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav10" aria-controls="navbarNav10" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="col-4 col-sm-2 text-center order-lg-6">
-              <a href="https://www.froala.com">
-                <img src="libs/froala/imgs/img_logo.png" height="30" alt="image">
-              </a>
-            </div>
 
-            <div class="collapse navbar-collapse col-12 col-md-5 order-lg-1" id="navbarNav10">
-              <ul class="navbar-nav col-5">
-                <li class="nav-item active">
-                  <a class="nav-link" href="https://www.froala.com">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">Team</a>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="navbar-nav justify-content-end col-sm-5 order-lg-12 d-none d-md-flex">
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com"><i class="fa fa-youtube"></i></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com"><i class="fa fa-facebook"></i></a>
-              </li>
-            </ul>
-          </nav>
+<?php include 'inc/main.php'; ?>
 
 
 
 
 
 
-
-    <section class="fdb-block fdb-viewport bg-dark" style="background-image: url(libs/froala/imgs/bg_0.svg)">
-        <div class="container justify-content-center align-items-center d-flex">
-          <div class="row justify-content-center text-center">
-            <div class="col-12 col-md-8">
-              <img alt="image" class="fdb-icon" src="libs/froala/imgs/img_round.svg">
-              <h1>Froala Design Blocks</h1>
-              <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <p class="mt-5"><a href="https://www.froala.com" class="btn">Call to Action</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
 
@@ -245,9 +198,9 @@
 <script type="text/javascript">
 function testScroll(ev){
   var winH = window.innerHeight	;
-  if(window.pageYOffset> (winH - 200)) {document.querySelector('nav').classList.remove('nav-top');
+  if(window.pageYOffset> (winH - 200)) {document.querySelector('nav').classList.add('bg-dark');
 }else {
-  document.querySelector('nav').classList.add('nav-top');
+  document.querySelector('nav').classList.remove('bg-dark');
 }
 }
 testScroll();
