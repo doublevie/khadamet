@@ -1,13 +1,13 @@
 .btn {
   padding: 9px 26px;
-  background-color: #528bff;
+  /*background-color: #528bff;*/
   color: #FFF;
   display: inline-block;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   text-decoration: none;
-  border: solid 2px #528bff;
+  /*border: solid 2px #528bff;*/
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px; }
@@ -17,9 +17,9 @@
     background-color: transparent;
     color: #528bff; }
   .btn:hover {
-    color: #FFF;
+    /*color: #FFF;
     background-color: #1f69ff;
-    border-color: #1f69ff; }
+    border-color: #1f69ff; */}
   .btn.btn-black {
     color: #FFFFFF;
     background-color: #000000;

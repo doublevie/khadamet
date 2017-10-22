@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="libs/bootstrap4/css/bootstrap.min.css" >
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
 
-<!-- <link rel="stylesheet" href="libs/main/css/main.css"> -->
+<!-- <link rel="stylesheet" href="libs/main/css/main-froala.css"> -->
 <link type="text/css" rel="stylesheet" href="libs/froala/css/froala_blocks.css">
 <link type="text/css" rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
 <style media="screen">
@@ -56,7 +56,7 @@
                 <img alt="image" class="fdb-icon" src="libs/froala/imgs/img_square_1.svg">
                 <h1>Design Blocks</h1>
                 <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-                <p class="mt-4"><a class="btn" href="https://www.froala.com">Download</a><a class="btn" href="https://www.froala.com">Register</a></p>
+                <p class="mt-4"><a class="btn" href="#">Download</a><a class="btn" href="#">Register</a></p>
               </div>
             </div>
           </div>
@@ -75,58 +75,7 @@
           </section>
 
 
-          <section  class="fdb-block">
-
-<div class="container">
-
-          <div class="row">
-                  <div class="col-sm-3 text-left">
-                    <div class="fdb-box">
-                      <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_1.svg">
-
-                      <div class="content">
-                        <h3><strong>Sara Doe</strong></h3>
-                        <p>Founder</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-sm-3 text-left">
-                    <div class="fdb-box">
-                      <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_2.svg">
-
-                      <div class="content">
-                        <h3><strong>Sara Doe</strong></h3>
-                        <p>Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-3 text-left">
-                    <div class="fdb-box">
-                      <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_3.svg">
-
-                      <div class="content">
-                        <h3><strong>Sara Doe</strong></h3>
-                        <p>Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-3 text-left">
-                    <div class="fdb-box">
-                      <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_4.svg">
-
-                      <div class="content">
-                        <h3><strong>Sara Doe</strong></h3>
-                        <p>Founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-</section>
-
+<?php include 'inc/services.php'; ?>
 
 
 
@@ -138,11 +87,11 @@
               Follow us and ask more on:
             </p>
             <p class="text-h2">
-              <a href="https://www.froala.com"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-google"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-pinterest"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href="#"><i class="fa fa-google"></i></a>&nbsp;&nbsp;&nbsp;
+              <a href="#"><i class="fa fa-pinterest"></i></a>
             </p>
           </div>
         </div>
@@ -166,23 +115,23 @@
             <div class="col">
               <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" href="https://www.froala.com">Home</a>
+                  <a class="nav-link active" href=#>Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">Features</a>
+                  <a class="nav-link" href="#">Features</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">Privacy Policy</a>
+                  <a class="nav-link" href="#">Privacy Policy</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">Terms</a>
+                  <a class="nav-link" href="#">Terms</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://www.froala.com">About</a>
+                  <a class="nav-link" href="#">About</a>
                 </li>
               </ul>
 
-              <p class="text-h5 mt-5">© 2013-2017 Froala</p>
+              <p class="text-h5 mt-5">© 2013-2017 FREQUENCY</p>
             </div>
           </div>
         </div>
@@ -198,9 +147,9 @@
 <script type="text/javascript">
 function testScroll(ev){
   var winH = window.innerHeight	;
-  if(window.pageYOffset> (winH - 200)) {document.querySelector('nav').classList.add('bg-dark');
+  if(window.pageYOffset> (winH - 200)) {document.querySelector('nav').classList.add('bg-light');
 }else {
-  document.querySelector('nav').classList.remove('bg-dark');
+  document.querySelector('nav').classList.remove('bg-light');
 }
 }
 testScroll();

@@ -30,11 +30,11 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #2d313c;
+        fill: #FFEB3B;
       }
 
       .cls-2, .cls-3 {
-        fill: #fff;
+        fill: #000;
         fill-rule: evenodd;
       }
 
