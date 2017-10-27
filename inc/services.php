@@ -3,9 +3,9 @@
 <div class="container">
 
 <div class="row">
-        <div class="col-sm-4 text-left">
+        <div class="col-md-3 col-sm-6 text-left">
           <div class="fdb-box">
-            <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_1.svg">
+            <img alt="image" class="img-fluid imgfl" src="img/plumber.png">
 
             <div class="content">
               <h3><strong>plombier</strong></h3>
@@ -14,38 +14,40 @@
           </div>
         </div>
 
-        <div class="col-sm-4 text-left">
+        <div class="col-md-3 col-sm-6 text-left">
           <div class="fdb-box">
-            <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_2.svg">
+            <img alt="image" class="img-fluid imgfl"  src="img/builder.png">
 
             <div class="content">
-              <h3><strong>Sara Doe</strong></h3>
-              <p>Founder</p>
+              <h3><strong>Maçon</strong></h3>
+              <p><a href="#" class="btn btn-black">Demmander</a></p>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 text-left">
+        <div class="col-md-3 col-sm-6 text-left">
           <div class="fdb-box">
-            <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_3.svg">
+            <img alt="image" class="img-fluid imgfl" src="img/paint.png">
 
             <div class="content">
-              <h3><strong>Sara Doe</strong></h3>
-              <p>Founder</p>
+              <h3><strong>Painter</strong></h3>
+              <p><a href="#" class="btn btn-black">Demmander</a></p>
             </div>
           </div>
         </div>
- 
 
-        <div class="col-sm-4 text-left">
+        <div class="col-md-3 col-sm-6 text-left">
           <div class="fdb-box">
-            <img alt="image" class="img-fluid" src="libs/froala/imgs/img_square_4.svg">
+            <img alt="image" class="img-fluid imgfl" src="img/maid.jpg">
 
             <div class="content">
-              <h3><strong>Sara Doe</strong></h3>
-              <p>Founder</p>
+              <h3><strong>Femme de ménage</strong></h3>
+              <p><a href="#" class="btn btn-black">Demmander</a></p>
             </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
 

@@ -10,7 +10,21 @@
 <!-- <link rel="stylesheet" href="libs/main/css/main-froala.css"> -->
 <link type="text/css" rel="stylesheet" href="libs/froala/css/froala_blocks.css">
 <link type="text/css" rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
+<link type="text/css" rel="stylesheet" href="libs/css/carousel.css">
 <style media="screen">
+
+.bg-fif {background: rgba(0,0,0,0.7)}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #FFFF00;
+}
+.navbar-dark {margin:20px;}
+.bg-light {background:#FFFF00!important; }
+.navbar-dark , .navbar-light {
+  transition: all 0.5s ease;
+}
+.imgfl {height:100px;width:auto}
+
+.carousel-caption h1 ,.carousel-caption p {background: rgba(0, 0, 0, 0.5); !important;color:#FFFF00 !important;margin-bottom:0}
 
 </style>
     <!-- Bootstrap CSS -->
@@ -26,7 +40,7 @@
 
 
 
-<?php include 'inc/main.php'; ?>
+<?php include 'inc/carousel.php'; ?>
 
 
 
@@ -54,9 +68,9 @@
 
               <div class="col-12 ml-md-auto col-md-7 col-lg-5 pb-5 pb-md-0">
                 <img alt="image" class="fdb-icon" src="libs/froala/imgs/img_square_1.svg">
-                <h1>Design Blocks</h1>
+                <h1>Télécharger l'application dz services</h1>
                 <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-                <p class="mt-4"><a class="btn" href="#">Download</a><a class="btn" href="#">Register</a></p>
+                <p class="mt-4"><a class="btn" href="#">Download</a><a class="btn" href="#">Telecharger</a></p>
               </div>
             </div>
           </div>
@@ -68,7 +82,7 @@
             <div class="container">
               <div class="row text-center">
                 <div class="col-12">
-                  <h1>Les sercives</h1>
+                  <h1 style="color:#FFFF00">Les sercives</h1>
                 </div>
               </div>
             </div>
@@ -140,16 +154,23 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="libs/bootstrap4/js/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="libs/bootstrap4/js/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="libs/bootstrap4/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap4/js/jquery-3.2.1.slim.min.js" ></script>
+    <script src="libs/bootstrap4/js/popper.min.js" ></script>
+    <script src="libs/bootstrap4/js/bootstrap.min.js" ></script>
 
 <script type="text/javascript">
 function testScroll(ev){
   var winH = window.innerHeight	;
-  if(window.pageYOffset> (winH - 200)) {document.querySelector('nav').classList.add('bg-light');
+  if(window.pageYOffset> (winH - 200)) {
+    document.querySelector('nav').classList.add('bg-light');
+  document.querySelector('nav').classList.remove('navbar-dark');
+  document.querySelector('nav').classList.remove('bg-fif');
+  document.querySelector('#logo').src="img/logo.png";
 }else {
   document.querySelector('nav').classList.remove('bg-light');
+  document.querySelector('nav').classList.add('bg-fif');
+  document.querySelector('nav').classList.add('navbar-dark');
+  document.querySelector('#logo').src="img/logoy.png";
 }
 }
 testScroll();

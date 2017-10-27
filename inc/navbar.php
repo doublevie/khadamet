@@ -1,28 +1,28 @@
 
-          <nav class="navbar navbar-expand-lg navbar-light  nav-top fixed-top ">
+          <nav class="navbar navbar-expand-lg navbar-light bg-fif  nav-top fixed-top ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav10" aria-controls="navbarNav10" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="col-4 col-sm-2 text-center order-lg-6">
-              <a href="https://www.froala.com">
-                <img src="libs/froala/imgs/img_logo.png" height="30" alt="image">
+              <a href="#">
+                <img src="libs/froala/imgs/logoy.png" id="logo" height="30" alt="image">
               </a>
             </div>
 
             <div class="collapse navbar-collapse col-12 col-md-5 order-lg-1" id="navbarNav10">
               <ul class="navbar-nav col-5">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Services</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Inscription</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Team</a>
+                  <a class="nav-link" href="#">Connexion</a>
                 </li>
               </ul>
             </div>
