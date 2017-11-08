@@ -56,4 +56,10 @@ body , .ca {
 
 
 .fdb-box.serv {height:200px;position: relative;background-size: cover!important}
-.fdb-box .ttl {position: absolute;top:160px;left: 0;right:0;text-align: center;background: rgba(0,0,0,0.6);color:#fff;height:40px;line-height: 40px}
+.fdb-box .ttl {cursor:pointer;position: absolute;top:160px;left: 0;right:0;text-align: center;background: rgba(0,0,0,0.8);color:#fff;height:40px;line-height: 40px}
+.fdb-box:hover .ttl {height: 200px;top:0;line-height: 200px;color: #FFFF00;background: rgba(0,0,0,0.6);}
+
+.fdb-box .ttl , .fdb-box:hover .ttl {
+  -webkit-transition: height .6s, color 1s,top .6s;
+    transition: height .6s, color 1s,top .6s;
+}
