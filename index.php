@@ -11,6 +11,7 @@
 <link type="text/css" rel="stylesheet" href="libs/froala/css/froala_blocks.css">
 <link type="text/css" rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
 <link type="text/css" rel="stylesheet" href="libs/css/carousel.css">
+<link type="text/css" rel="stylesheet" href="libs/css/main.css">
 <style media="screen">
 
 .bg-fif {background: rgba(0,0,0,0.7)}
@@ -68,7 +69,7 @@
 
               <div class="col-12 ml-md-auto col-md-7 col-lg-5 pb-5 pb-md-0">
                 <img alt="image" class="fdb-icon" src="libs/froala/imgs/img_square_1.svg">
-                <h1>Télécharger l'application dz services</h1>
+                <h1 class="ca">Télécharger l'application dz services</h1>
                 <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
                 <p class="mt-4"><a class="btn" href="#">Download</a><a class="btn" href="#">Telecharger</a></p>
               </div>
@@ -89,7 +90,7 @@
           </section>
 
 
-<?php include 'inc/services.php'; ?>
+<?php include 'inc/services2.php'; ?>
 
 
 
