@@ -13,13 +13,28 @@
 <link type="text/css" rel="stylesheet" href="libs/css/carousel.css">
 <link type="text/css" rel="stylesheet" href="libs/css/main.css">
 <style media="screen">
-
+.fdb-block .fdb-touch {
+  border-top-color: #FFFF00
+}
+.carousel {margin-bottom: 0}
+.form-control:focus {
+  border-color: #FFFF00;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,0, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,0, .6);
+}
 .bg-fif {background: rgba(0,0,0,0.7)}
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #FFFF00;
 }
+.phonenumber {
+font-weight: bold;
+font-size: 15px;
+  color: #FFFF00;
+}
 .navbar-dark {margin:20px;}
 .bg-light {background:#FFFF00!important; }
+.bg-light .phonenumber{color:#000000!important; }
 .navbar-dark , .navbar-light {
   transition: all 0.5s ease;
 }
@@ -37,90 +52,27 @@
 
 
 
-<?php include 'inc/navbar.php'; ?>
+<?php
+include 'inc/navbar.php';
 
 
 
-<?php include 'inc/carousel.php'; ?>
+include 'inc/carousel.php';
 
 
 
+include 'inc/services.php';
+include 'inc/services2.php';
+
+include 'inc/apk.php';
+  include 'inc/contact.php';
 
 
 
+include 'inc/social.php';
+include 'inc/footer.php';
 
-
-
-
-
-
-
-
-
-
-
-
-      <section class="fdb-block pb-0">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-10 col-sm-6 col-md-5 col-lg-4 m-auto pb-5 pb-md-0">
-                <img alt="image" class="img-fluid br-0" src="libs/froala/imgs/img_tall.png">
-              </div>
-
-              <div class="col-12 ml-md-auto col-md-7 col-lg-5 pb-5 pb-md-0">
-                <img alt="image" class="fdb-icon" src="libs/froala/imgs/img_square_1.svg">
-                <h1 class="ca">Télécharger l'application dz services</h1>
-                <p class="text-h3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
-                <p class="mt-4"><a class="btn" href="#">Download</a><a class="btn" href="#">Telecharger</a></p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-        <section class="fdb-block fdb-image-bg" style="background: url(libs/froala/imgs/img_bg.jpg)">
-            <div class="container">
-              <div class="row text-center">
-                <div class="col-12">
-                  <h1 style="color:#FFFF00" class="ca">Les sercives</h1>
-                </div>
-              </div>
-            </div>
-          </section>
-
-
-<?php include 'inc/services2.php'; ?>
-
-
-
-
-
-
-
-
-
-<?php include 'inc/contact.php'; ?>
-
-
-  <section class="fdb-block">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-10 col-md-8 col-lg-4 text-center">
-            <p class="text-h3">
-              Follow us and ask more on:
-            </p>
-            <p class="text-h2">
-              <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="#"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="#"><i class="fa fa-google"></i></a>&nbsp;&nbsp;&nbsp;
-              <a href="#"><i class="fa fa-pinterest"></i></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+ ?>
 
 
 
@@ -133,33 +85,7 @@
 
 
 
-    <footer class="fdb-block footer-small bg-dark">
-        <div class="container">
-          <div class="row text-center align-items-center">
-            <div class="col">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" href=#>Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Privacy Policy</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Terms</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-              </ul>
 
-              <p class="text-h5 mt-5">© 2013-2017 FREQUENCY</p>
-            </div>
-          </div>
-        </div>
-      </footer>
 
 
     <!-- Optional JavaScript -->

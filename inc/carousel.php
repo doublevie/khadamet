@@ -25,7 +25,7 @@
                  </div>
                </div>
                <div class="carousel-item">
-                 <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+                 <img class="third-slide" src="img/10387385_800139443365408_2121633346724702687_n.jpg" alt="Third slide">
                  <div class="container">
                    <div class="carousel-caption text-right">
                      <h1>موقع خدمات</h1>

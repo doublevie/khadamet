@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="fdb-box fdb-touch">
+          <div class="fdb-box fdb-touch ">
             <div class="row text-center justify-content-center">
               <div class="col-12 col-md-9 col-lg-7">
                 <h1>Contactez nous</h1>
@@ -36,7 +36,7 @@
                   </div>
                   <div class="row mt-4">
                     <div class="col text-center">
-                      <button type="submit" class="btn">Submit</button>
+                      <button type="submit" class="btn btn-warning">Submit</button>
                     </div>
                   </div>
                 </form>

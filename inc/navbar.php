@@ -28,7 +28,7 @@
             </div>
 
             <ul class="navbar-nav justify-content-end col-sm-5 order-lg-12 d-none d-md-flex">
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
               </li>
               <li class="nav-item">
@@ -36,6 +36,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
-              </li>
+              </li> -->
+              <li class="nav-item phonenumber"><i class="fa fa-phone"></i> 0550505050</li>
             </ul>
           </nav>
