@@ -8,19 +8,24 @@
                <div class="carousel-item active">
                  <img class="first-slide" src="img/shutterstock_150120215.jpg" alt="First slide">
                  <div class="container">
-                   <div class="carousel-caption text-left">
-                     <h1>Example headline.</h1>
-                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                   <div class="carousel-caption text-right">
+                     <h1>تحتاج</h1>
+                     <p>
+كهربائي , ممرض مستقل ,بلومبي أو عندك بريكول معين ؟ <br>
+موقع يوفرلك
+ الوقت و الجهد و يسهل عليك البحث
+                     </p>
                    </div>
                  </div>
                </div>
                <div class="carousel-item">
                  <img class="second-slide" src="img/shutterstock_481898056.jpg" alt="Second slide">
                  <div class="container">
-                   <div class="carousel-caption">
-                     <h1>Another example headline.</h1>
-                     <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                     <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                   <div class="carousel-caption text-right">
+
+                     <p>أول موقع دليل لأصحاب المهن يساعد الزبائن في الحصول على خدماتهم </p>
+                     <p>قم بالتسجيل في الموقع و احصل على خدمتنا مجانا</p>
+                     <p align="center"><a class="btn btn-lg btn-warning" href="#" role="button">تسجيل</a></p>
                    </div>
                  </div>
                </div>

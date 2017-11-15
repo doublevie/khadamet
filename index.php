@@ -39,9 +39,9 @@ font-size: 15px;
   transition: all 0.5s ease;
 }
 .imgfl {height:100px;width:auto}
-
-.carousel-caption h1 ,.carousel-caption p {background: rgba(0, 0, 0, 0.5); !important;color:#FFFF00 !important;margin-bottom:0}
-
+.carousel-caption {padding: 15px;background: rgba(0, 0, 0, 0.5); }
+.carousel-caption h1 ,.carousel-caption p {!important;color:#FFFF00 !important;margin-bottom:0}
+.serv {margin-bottom: 15px;}
 </style>
     <!-- Bootstrap CSS -->
   </head>
@@ -60,11 +60,11 @@ include 'inc/navbar.php';
 include 'inc/carousel.php';
 
 
+include 'inc/apk.php';
 
 include 'inc/services.php';
-include 'inc/services2.php';
+// include 'inc/services2.php';
 
-include 'inc/apk.php';
   include 'inc/contact.php';
 
 
